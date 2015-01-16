@@ -24,13 +24,13 @@ public class SpawnScript : MonoBehaviour {
 			{
 				temp = (GameObject)Instantiate(powerup);
 				Vector3 pos = temp.transform.position;
-				temp.transform.position = new Vector3(Random.Range(-4,4), 1,40);
+				temp.transform.position = new Vector3(Random.Range(-4,4), 1,50);
 			}
 			else
 			{
 				temp = (GameObject)Instantiate(obstacle);
 				Vector3 pos = temp.transform.position;
-				temp.transform.position = new Vector3(Random.Range(-4,4), 1,40);
+				temp.transform.position = new Vector3(Random.Range(-4,4), 1,50);
 			}
 
 
